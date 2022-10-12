@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;800;900&display=swap');
+.nav_bar{
+    height: 100px;
+    background-color: #c81f34;
+    border: 0;
+}
+
+body{
+    margin: 0 auto;
+}
+
+.banner > img{
+    width: 100%;
+}
+
+.footer{
+    height: 200px;
+    background-color: black;
+}
+
+.logo{
+    width: 110px;
+    display: block;
+    float:left;
+    margin-left: 80px;
+}
+
+.delivery{
+    width: 170px;
+    display: block;
+    float: right;
+    padding: 25px 0;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.list_item{
+    margin: 20px 0px;
+    display: grid;
+    grid-gap: 20px 20px;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    margin-left: 10px;
+    margin-right: 10px;
+  
+}
+
+.item > img{
+    width: 450px;
+    display: block;
+    margin: 0 auto;
+}
+
+.item > .title, .price, .order{
+    font-family: 'Maven Pro', sans-serif;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.item{
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 70px;
+    box-shadow: 5px 10px #888888;
+}
+
+.price{
+    color: #ce2026;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.order{
+    display: block;
+    margin: 0 auto;
+    padding: 15px 20px 15px 20px;
+    font-size: larger;
+    background-color: #ce2026;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    /* margin-bottom: 50px; */
+}
+
+.item:hover{
+    border: whitesmoke;
+}
+
+.order:hover{
+    background-color: red;
+}
+
